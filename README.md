@@ -54,17 +54,17 @@ This project demonstrates the solution of the heat equation using the finite dif
 
 ## File Descriptions
 
-### `data_preparation.py`
+### `generate_dataset.py`
 Generates a dataset for fine-tuning the LLM based on the finite difference method for solving the heat equation. It handles four boundary cases:
 - Fixed temperature at both ends.
 - Insulated boundaries.
 - Linearly varying boundary conditions.
 - Mixed boundary conditions.
 
-### `finetune_granite.py`
+### `finetune_granite_model.py`
 Fine-tunes the Granite LLM using LoRA with the dataset generated in `generate_dataset.py`. The model is configured for 4-bit quantization and optimized for causal language modeling tasks.
 
-### `infer_granite.py`
+### `inference_Granite.py`
 Loads the fine-tuned Granite model and provides inference capabilities based on user queries.
 
 ### `requirements.txt`
