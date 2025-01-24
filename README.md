@@ -83,6 +83,3 @@ Specifies the dependencies needed for the project, including `transformers`, `pe
   tokenizer = AutoTokenizer.from_pretrained("results")
   ```
 
-## Contact
-
-For questions or issues, please contact [jayaram.reddy@research.iiit.ac.in](mailto:jayaram.reddy@research.iiit.ac.in).
