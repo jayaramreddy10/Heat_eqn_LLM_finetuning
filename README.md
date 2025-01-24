@@ -1,4 +1,4 @@
-# Solving Heat Equation Using Finite Difference Method
+# Finetuning Granite LLM model to interpret heat equations
 
 This project demonstrates the solution of the heat equation using the finite difference method. It also includes data preparation for LLM fine-tuning with four boundary cases, fine-tuning the Granite model, and inferring results using the fine-tuned model.
 
