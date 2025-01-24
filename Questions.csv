@@ -1,0 +1,13 @@
+Id,Case,Ouestion
+1,1,"What is the temperature distribution at the corner (0, 0) of the unit square mesh?"
+2,1,How does the temperature change with respect to the position along the x-axis at y = 0.5?
+3,1,If we increase the coeeficient of pi in the force function what will happen?
+4,2,"Explain why the temperature is zero at both x=0 and x=1, and what this means physically."
+5,2,"At what coordinates does the maximum temperature occur, and what determines this location?"
+6,2,How does the temperature profile change along the vertical line x=0.5 compared to x=0.25?
+7,3,"What is the temperature at the corner (0, 0) of the unit square mesh?"
+8,3,"What physical significance does the boundary condition u(0,y)=0 have in the context of heat diffusion on the unit square mesh?"
+9,3,"What does the boundary condition u(1,y)=y(1?y) represent physically in this heat diffusion problem?"
+10,4,What can you infer about the decay rate of temperature?
+11,4,Comment on the physical interpretation of why the spatial pattern remains unchanged while only the amplitude decreases with time?
+12,4,What is the effect of alpha on the deacy rate of heat dissipation?
