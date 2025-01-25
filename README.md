@@ -77,8 +77,6 @@ Specifies the dependencies needed for the project, including `transformers`, `pe
 - Model and tokenizer are saved in the `finetuned_granite_model/` folder. You can reload them using the following code snippet:
   ```python
   from transformers import AutoModelForCausalLM, AutoTokenizer
-- Model and tokenizer are saved in the `finetuned_granite_model/` folder. You can reload them using the following code snippet:
-
   model = AutoModelForCausalLM.from_pretrained("finetuned_granite_model")
   tokenizer = AutoTokenizer.from_pretrained("finetuned_granite_model")
   ```
