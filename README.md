@@ -75,5 +75,11 @@ Specifies the dependencies needed for the project, including `transformers`, `pe
 - Ensure you have a GPU-enabled environment for efficient training and inference.
 - The fine-tuning script uses LoRA for parameter-efficient fine-tuning, reducing the need for large computational resources.
 - Model and tokenizer are saved in the `finetuned_granite_model/` folder. You can reload them using the following code snippet:
+  ```python
+  from transformers import AutoModelForCausalLM, AutoTokenizer
+- Model and tokenizer are saved in the `finetuned_granite_model/` folder. You can reload them using the following code snippet:
 
+  model = AutoModelForCausalLM.from_pretrained("finetuned_granite_model")
+  tokenizer = AutoTokenizer.from_pretrained("finetuned_granite_model")
+  ```
 
