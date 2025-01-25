@@ -80,4 +80,4 @@ Specifies the dependencies needed for the project, including `transformers`, `pe
   model = AutoModelForCausalLM.from_pretrained("finetuned_granite_model")
   tokenizer = AutoTokenizer.from_pretrained("finetuned_granite_model")
   ```
-
+Slides : https://docs.google.com/presentation/d/1XIPdLyAaKHrZz71j8mSiOFCsgcmhMSyG3RYOhtGvpMY/edit?usp=sharing
